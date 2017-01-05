@@ -1,0 +1,238 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    /*<a name="line.1"></a>
+<FONT color="green">002</FONT>     * Copyright (c) 2005, romain guy (romain.guy@jext.org) and craig wickesser (craig@codecraig.com)<a name="line.2"></a>
+<FONT color="green">003</FONT>     * All rights reserved.<a name="line.3"></a>
+<FONT color="green">004</FONT>     * <a name="line.4"></a>
+<FONT color="green">005</FONT>     * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:<a name="line.5"></a>
+<FONT color="green">006</FONT>     * <a name="line.6"></a>
+<FONT color="green">007</FONT>     *     * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<a name="line.7"></a>
+<FONT color="green">008</FONT>     *     * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.<a name="line.8"></a>
+<FONT color="green">009</FONT>     *     * Neither the name of the &lt;ORGANIZATION> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.<a name="line.9"></a>
+<FONT color="green">010</FONT>     * <a name="line.10"></a>
+<FONT color="green">011</FONT>     * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS<a name="line.11"></a>
+<FONT color="green">012</FONT>     * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,<a name="line.12"></a>
+<FONT color="green">013</FONT>     * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE<a name="line.13"></a>
+<FONT color="green">014</FONT>     * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE<a name="line.14"></a>
+<FONT color="green">015</FONT>     * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES<a name="line.15"></a>
+<FONT color="green">016</FONT>     * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF<a name="line.16"></a>
+<FONT color="green">017</FONT>     * USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF<a name="line.17"></a>
+<FONT color="green">018</FONT>     * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)<a name="line.18"></a>
+<FONT color="green">019</FONT>     * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<a name="line.19"></a>
+<FONT color="green">020</FONT>     * POSSIBILITY OF SUCH DAMAGE.<a name="line.20"></a>
+<FONT color="green">021</FONT>     */<a name="line.21"></a>
+<FONT color="green">022</FONT>    <a name="line.22"></a>
+<FONT color="green">023</FONT>    package net.java.swingfx.jdraggable;<a name="line.23"></a>
+<FONT color="green">024</FONT>    <a name="line.24"></a>
+<FONT color="green">025</FONT>    import java.awt.Component;<a name="line.25"></a>
+<FONT color="green">026</FONT>    import java.awt.Container;<a name="line.26"></a>
+<FONT color="green">027</FONT>    import java.awt.Point;<a name="line.27"></a>
+<FONT color="green">028</FONT>    import java.awt.Rectangle;<a name="line.28"></a>
+<FONT color="green">029</FONT>    import java.awt.event.MouseEvent;<a name="line.29"></a>
+<FONT color="green">030</FONT>    <a name="line.30"></a>
+<FONT color="green">031</FONT>    import javax.swing.SwingUtilities;<a name="line.31"></a>
+<FONT color="green">032</FONT>    import javax.swing.event.MouseInputAdapter;<a name="line.32"></a>
+<FONT color="green">033</FONT>    <a name="line.33"></a>
+<FONT color="green">034</FONT>    /**<a name="line.34"></a>
+<FONT color="green">035</FONT>     * A listener which receives {@link java.awt.event.MouseEvent}'s to aid<a name="line.35"></a>
+<FONT color="green">036</FONT>     * in the "dragging" of a {@link java.awt.Component}<a name="line.36"></a>
+<FONT color="green">037</FONT>     * <a name="line.37"></a>
+<FONT color="green">038</FONT>     * @author craig<a name="line.38"></a>
+<FONT color="green">039</FONT>     * @since v0.1<a name="line.39"></a>
+<FONT color="green">040</FONT>     * &lt;br><a name="line.40"></a>
+<FONT color="green">041</FONT>     * $Header: /cvs/swingfx/docs/api/src-html/net/java/swingfx/jdraggable/DraggableListener.html,v 1.1 2005/06/23 00:24:44 codecraig Exp $<a name="line.41"></a>
+<FONT color="green">042</FONT>     */<a name="line.42"></a>
+<FONT color="green">043</FONT>    public class DraggableListener extends MouseInputAdapter {<a name="line.43"></a>
+<FONT color="green">044</FONT>        private Point componentTopLeft;<a name="line.44"></a>
+<FONT color="green">045</FONT>        private Point componentTopRight;<a name="line.45"></a>
+<FONT color="green">046</FONT>        private Point componentBottomLeft;<a name="line.46"></a>
+<FONT color="green">047</FONT>        private Point componentBottomRight;<a name="line.47"></a>
+<FONT color="green">048</FONT>        private Point containerTopLeft;<a name="line.48"></a>
+<FONT color="green">049</FONT>        private Point containerTopRight;<a name="line.49"></a>
+<FONT color="green">050</FONT>        private Point containerBottomLeft;<a name="line.50"></a>
+<FONT color="green">051</FONT>        private Point containerBottomRight;<a name="line.51"></a>
+<FONT color="green">052</FONT>            <a name="line.52"></a>
+<FONT color="green">053</FONT>            private DraggableManager dragManager;<a name="line.53"></a>
+<FONT color="green">054</FONT>            private Component draggableComponent;<a name="line.54"></a>
+<FONT color="green">055</FONT>            private Container draggableContainer;<a name="line.55"></a>
+<FONT color="green">056</FONT>            private int offsetX;<a name="line.56"></a>
+<FONT color="green">057</FONT>            private int offsetY;<a name="line.57"></a>
+<FONT color="green">058</FONT>            <a name="line.58"></a>
+<FONT color="green">059</FONT>            /**<a name="line.59"></a>
+<FONT color="green">060</FONT>             * Creates a new listener which communicates with the given {@link DraggableManager}<a name="line.60"></a>
+<FONT color="green">061</FONT>             * during "dragging"<a name="line.61"></a>
+<FONT color="green">062</FONT>             * <a name="line.62"></a>
+<FONT color="green">063</FONT>             * @param dragManager   the &lt;code>DraggableManager&lt;/code> to communicate with<a name="line.63"></a>
+<FONT color="green">064</FONT>             */<a name="line.64"></a>
+<FONT color="green">065</FONT>            public DraggableListener(DraggableManager dragManager) {<a name="line.65"></a>
+<FONT color="green">066</FONT>                    this.dragManager = dragManager;<a name="line.66"></a>
+<FONT color="green">067</FONT>                    this.draggableContainer = dragManager.getDraggableContainer();<a name="line.67"></a>
+<FONT color="green">068</FONT>            }<a name="line.68"></a>
+<FONT color="green">069</FONT>            <a name="line.69"></a>
+<FONT color="green">070</FONT>            /**<a name="line.70"></a>
+<FONT color="green">071</FONT>             * @see java.awt.event.MouseMotionListener#mouseDragged(java.awt.event.MouseEvent)<a name="line.71"></a>
+<FONT color="green">072</FONT>             */<a name="line.72"></a>
+<FONT color="green">073</FONT>            public void mouseDragged(MouseEvent e) {<a name="line.73"></a>
+<FONT color="green">074</FONT>                    if (dragManager.dragging()) {<a name="line.74"></a>
+<FONT color="green">075</FONT>                            //TODO: come up with a better solution than this, and once we do, remove<a name="line.75"></a>
+<FONT color="green">076</FONT>                            // shouldNullifyLayout() from the interface<a name="line.76"></a>
+<FONT color="green">077</FONT>                            if (dragManager.shouldNullifyLayout() && draggableContainer.getLayout() != null) {<a name="line.77"></a>
+<FONT color="green">078</FONT>                                    draggableContainer.setLayout(null);<a name="line.78"></a>
+<FONT color="green">079</FONT>                            }<a name="line.79"></a>
+<FONT color="green">080</FONT>                            int x = e.getX();<a name="line.80"></a>
+<FONT color="green">081</FONT>                    int y = e.getY();<a name="line.81"></a>
+<FONT color="green">082</FONT>                    Point pt = SwingUtilities.convertPoint(draggableComponent, x, y, draggableContainer);<a name="line.82"></a>
+<FONT color="green">083</FONT>                    draggableComponent.setLocation(pt.x - offsetX, pt.y - offsetY);<a name="line.83"></a>
+<FONT color="green">084</FONT>                    stayInContainer();<a name="line.84"></a>
+<FONT color="green">085</FONT>                    }<a name="line.85"></a>
+<FONT color="green">086</FONT>            }<a name="line.86"></a>
+<FONT color="green">087</FONT>            <a name="line.87"></a>
+<FONT color="green">088</FONT>            /**<a name="line.88"></a>
+<FONT color="green">089</FONT>             * @see java.awt.event.MouseListener#mousePressed(java.awt.event.MouseEvent)<a name="line.89"></a>
+<FONT color="green">090</FONT>             */<a name="line.90"></a>
+<FONT color="green">091</FONT>            public void mousePressed(MouseEvent e) {<a name="line.91"></a>
+<FONT color="green">092</FONT>                    draggableComponent = e.getComponent();<a name="line.92"></a>
+<FONT color="green">093</FONT>                    if (dragManager.startDrag(draggableComponent)) {<a name="line.93"></a>
+<FONT color="green">094</FONT>                            offsetX = e.getX();<a name="line.94"></a>
+<FONT color="green">095</FONT>                            offsetY = e.getY();<a name="line.95"></a>
+<FONT color="green">096</FONT>                    }<a name="line.96"></a>
+<FONT color="green">097</FONT>            }<a name="line.97"></a>
+<FONT color="green">098</FONT>    <a name="line.98"></a>
+<FONT color="green">099</FONT>            /**<a name="line.99"></a>
+<FONT color="green">100</FONT>             * @see java.awt.event.MouseListener#mouseReleased(java.awt.event.MouseEvent)<a name="line.100"></a>
+<FONT color="green">101</FONT>             */<a name="line.101"></a>
+<FONT color="green">102</FONT>            public void mouseReleased(MouseEvent e) {<a name="line.102"></a>
+<FONT color="green">103</FONT>                    dragManager.stopDrag();<a name="line.103"></a>
+<FONT color="green">104</FONT>                    draggableComponent = null;<a name="line.104"></a>
+<FONT color="green">105</FONT>            }<a name="line.105"></a>
+<FONT color="green">106</FONT>            <a name="line.106"></a>
+<FONT color="green">107</FONT>            /**<a name="line.107"></a>
+<FONT color="green">108</FONT>             * Determines if the current "draggable component" is in the <a name="line.108"></a>
+<FONT color="green">109</FONT>             * "draggable container"<a name="line.109"></a>
+<FONT color="green">110</FONT>             * <a name="line.110"></a>
+<FONT color="green">111</FONT>             * @return      &lt;code>true&lt;/code> if the component is in the container,<a name="line.111"></a>
+<FONT color="green">112</FONT>             *                      &lt;code>false&lt;/code> otherwise<a name="line.112"></a>
+<FONT color="green">113</FONT>             */<a name="line.113"></a>
+<FONT color="green">114</FONT>            private boolean isInContainer() {<a name="line.114"></a>
+<FONT color="green">115</FONT>            Rectangle r = new Rectangle( draggableContainer.getWidth(), draggableContainer.getHeight() );<a name="line.115"></a>
+<FONT color="green">116</FONT>            int wC = (int)r.getWidth();<a name="line.116"></a>
+<FONT color="green">117</FONT>            int hC = (int)r.getHeight();<a name="line.117"></a>
+<FONT color="green">118</FONT>            containerTopLeft = r.getLocation();<a name="line.118"></a>
+<FONT color="green">119</FONT>            containerTopRight = new Point( (int)containerTopLeft.getX()+wC, (int)containerTopLeft.getY() );<a name="line.119"></a>
+<FONT color="green">120</FONT>            containerBottomLeft = new Point( (int)containerTopLeft.getX(), (int)containerTopLeft.getY()+hC );<a name="line.120"></a>
+<FONT color="green">121</FONT>            containerBottomRight = new Point( (int)containerTopLeft.getX()+wC, (int)containerTopLeft.getY()+hC );<a name="line.121"></a>
+<FONT color="green">122</FONT>            int w = draggableComponent.getWidth();<a name="line.122"></a>
+<FONT color="green">123</FONT>            int h = draggableComponent.getHeight();<a name="line.123"></a>
+<FONT color="green">124</FONT>            componentTopLeft = draggableComponent.getLocation();<a name="line.124"></a>
+<FONT color="green">125</FONT>            componentTopRight = new Point( (int)componentTopLeft.getX()+w, (int)componentTopLeft.getY() );<a name="line.125"></a>
+<FONT color="green">126</FONT>            componentBottomLeft = new Point( (int)componentTopLeft.getX(), (int)componentTopLeft.getY()+h );<a name="line.126"></a>
+<FONT color="green">127</FONT>            componentBottomRight = new Point( (int)componentTopLeft.getX()+w, (int)componentTopLeft.getY()+h );<a name="line.127"></a>
+<FONT color="green">128</FONT>            if( !r.contains(componentTopLeft) ) return false;<a name="line.128"></a>
+<FONT color="green">129</FONT>            if( !r.contains(componentTopRight) ) return false;<a name="line.129"></a>
+<FONT color="green">130</FONT>            if( !r.contains(componentBottomLeft) ) return false;<a name="line.130"></a>
+<FONT color="green">131</FONT>            if( !r.contains(componentBottomRight) ) return false;<a name="line.131"></a>
+<FONT color="green">132</FONT>            return true;<a name="line.132"></a>
+<FONT color="green">133</FONT>        }<a name="line.133"></a>
+<FONT color="green">134</FONT>            <a name="line.134"></a>
+<FONT color="green">135</FONT>            /**<a name="line.135"></a>
+<FONT color="green">136</FONT>             * Assures that the "draggable component" stays within the "draggable container"<a name="line.136"></a>
+<FONT color="green">137</FONT>             */<a name="line.137"></a>
+<FONT color="green">138</FONT>        private void stayInContainer(){<a name="line.138"></a>
+<FONT color="green">139</FONT>            /* if the plate goes is too far in right-direction, shift it back*/<a name="line.139"></a>
+<FONT color="green">140</FONT>            if( !isInContainer() ){    <a name="line.140"></a>
+<FONT color="green">141</FONT>                double x = componentTopRight.getX();<a name="line.141"></a>
+<FONT color="green">142</FONT>                double xC = containerTopRight.getX();<a name="line.142"></a>
+<FONT color="green">143</FONT>                if( x > xC ){<a name="line.143"></a>
+<FONT color="green">144</FONT>                    draggableComponent.setLocation( (int)(componentTopLeft.getX()+xC-x), (int)componentTopLeft.getY());<a name="line.144"></a>
+<FONT color="green">145</FONT>                }<a name="line.145"></a>
+<FONT color="green">146</FONT>            }<a name="line.146"></a>
+<FONT color="green">147</FONT>            /* if the plate goes is too far in left-direction, shift it back */<a name="line.147"></a>
+<FONT color="green">148</FONT>            if( !isInContainer() ){<a name="line.148"></a>
+<FONT color="green">149</FONT>                double x = componentTopLeft.getX();<a name="line.149"></a>
+<FONT color="green">150</FONT>                double xC = containerTopLeft.getX();<a name="line.150"></a>
+<FONT color="green">151</FONT>                if( x &lt; xC ){<a name="line.151"></a>
+<FONT color="green">152</FONT>                    draggableComponent.setLocation( (int)(componentTopLeft.getX()+xC-x), (int)componentTopLeft.getY());<a name="line.152"></a>
+<FONT color="green">153</FONT>                }<a name="line.153"></a>
+<FONT color="green">154</FONT>            }<a name="line.154"></a>
+<FONT color="green">155</FONT>            /* if the plate goes is too far in top-direction, shift it back */<a name="line.155"></a>
+<FONT color="green">156</FONT>            if( !isInContainer() ){<a name="line.156"></a>
+<FONT color="green">157</FONT>                double y = componentTopLeft.getY();<a name="line.157"></a>
+<FONT color="green">158</FONT>                double yC = containerTopLeft.getY();<a name="line.158"></a>
+<FONT color="green">159</FONT>                if( y &lt; yC ){<a name="line.159"></a>
+<FONT color="green">160</FONT>                    draggableComponent.setLocation( (int)componentTopLeft.getX(), (int)(componentTopLeft.getY()+yC-y));<a name="line.160"></a>
+<FONT color="green">161</FONT>                }<a name="line.161"></a>
+<FONT color="green">162</FONT>            }<a name="line.162"></a>
+<FONT color="green">163</FONT>            /* if the plate goes is too far in bottom-direction, shift it back */<a name="line.163"></a>
+<FONT color="green">164</FONT>            if( !isInContainer() ){<a name="line.164"></a>
+<FONT color="green">165</FONT>                double y = componentBottomLeft.getY();<a name="line.165"></a>
+<FONT color="green">166</FONT>                double yC = containerBottomLeft.getY();<a name="line.166"></a>
+<FONT color="green">167</FONT>                if( y > yC ){<a name="line.167"></a>
+<FONT color="green">168</FONT>                    draggableComponent.setLocation( (int)componentTopLeft.getX(), (int)( componentTopLeft.getY()+yC-y) );<a name="line.168"></a>
+<FONT color="green">169</FONT>                }<a name="line.169"></a>
+<FONT color="green">170</FONT>            }<a name="line.170"></a>
+<FONT color="green">171</FONT>        }<a name="line.171"></a>
+<FONT color="green">172</FONT>    }<a name="line.172"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

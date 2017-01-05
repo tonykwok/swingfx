@@ -1,0 +1,191 @@
+<!--
+********************************************************************************
+
+         Copyright text goes here
+
+     Rev      Date     Changed By       Comments
+     ===== =========== ================ ===================================
+     1.0   07 Mar 2005 Marty Backe      Initial Release
+
+********************************************************************************
+
+
+     This Ant script will build SwingFX, and optionally generate the Jar file
+     and Javadocs.
+
+     Prerequisites:
+       + The environmental variable JAVA_HOME must be set to the location of
+         a compatible SDK. Any 1.4.2+ version should work fine
+         (including 1.5.x), however SwingFx was developed with 1.4.2._03.
+         For example:
+               setenv JAVA_HOME /usr/local/j2sdk1.4.2_04
+       + The environmental variable ANT_HOME must be set to the location of
+         of an Ant version 1.6 or higher. (1.5.2 is known to fail, 1.6.2 works).
+       + Run Ant from the location of this build script. For example:
+               cd swingfx/src/
+               ant <target>
+
+     1) Prepare the filesystem for an initial build:
+
+            ant clean
+
+     2) The default target is 'build', which will compile all the source
+        files.
+
+            ant
+
+     3) To generate all the files required for a distribution, including
+        the jar file, run the target:
+
+            ant dist
+
+     4) Optionally, if you want the Javadocs use this target. It does not
+        require any previous targets to be run.
+
+            ant javadoc
+
+********************************************************************************
+-->
+
+<project name="SwingFX" default="build" basedir=".">
+    <description>
+        Ant build file for SwingFX
+    </description>
+
+    <echo message="Building with Java ${java.version}"/>
+
+
+<!--
+    Setup our environment
+-->
+    <property name="src" location="src"/>
+    <property name="lib" location="lib"/>
+    <property name="build" location="bin"/>
+    <property name="dist" location="."/>
+    <property name="docs" location="docs/api"/>
+    <property name="compiler.build" value="javac1.4"/>
+
+    <path id="classpath">
+        <pathelement location="${build}"/>
+        <!--
+        Add here any libaries as needed
+        <pathelement location="lib/swingfx/SomeLibrary.jar"/>
+        -->
+    </path>
+
+
+<!--
+    Create any necessary output directories
+-->
+    <target name="init"
+            description="Create any necessary output directories" >
+        <mkdir dir="${build}"/>
+    </target>
+
+
+<!--
+    Copy any resources from the sources to the bin directories
+-->
+    <target name="resources"
+            description="Copy resources from the source directories to the bin directories" >
+        <copy todir="${build}">
+            <fileset dir="${src}">
+                    <include name="**/*.jpe" />
+                    <include name="**/*.jpeg" />
+                    <include name="**/*.rmf" />
+                    <include name="**/*.wav" />
+                    <include name="**/*.mid" />
+                    <include name="**/*.midi" />
+                    <include name="**/*.au" />
+                    <include name="**/*.gif" />
+                    <include name="**/*.png" />
+                    <include name="**/*.aiff" />
+                    <include name="**/*.properties" />
+            </fileset>
+        </copy>
+    </target>
+
+<!--
+    Compile SwingFX
+-->
+    <target name="build"
+            description="Compile SwingFX"
+            depends="init, resources">
+        <javac fork="false"
+               srcdir="${src}"
+               destdir="${build}"
+               classpathref="classpath"
+               debug="true"/>
+    </target>
+
+
+
+
+<!--
+    Generate the Javadocs - There could be warnings, but there
+    should be no errors.
+-->
+    <target name="javadoc"
+            description="Generate the Javadocs"
+            depends="build">
+        <mkdir dir="${docs}"/>
+        <javadoc sourcepath="${src}"
+                 destdir="${docs}"
+                 linksource="yes"
+                 private="yes"
+                 version="yes"
+                 author="yes"
+                 use="yes"
+                 windowtitle="SwingFX Javadocs"
+                 classpath="${lib}/swingfx/SomeLibrary.jar:${lib}/swingfx/AnotherLibrary.jar"
+                 overview="${docs}/overview-tree.html"
+                 packagenames="*">
+        </javadoc>
+    </target>
+
+
+
+
+<!--
+    Create the swingfx.jar file
+-->
+    <target name="jar"
+            description="Create the swingfx.jar file"
+            depends="build">
+        <mkdir dir="${dist}"/>
+        <jar destfile="${dist}/swingfx.jar"
+             basedir="${build}"
+             manifest="meta-inf/Manifest.mf"/>
+    </target>
+
+
+<!--
+  Run this target to create the swingfx.jar and any other distribution files
+-->
+    <target name="dist"
+            description="Create the swingfx.jar"
+            depends="clean,jar,javadoc">
+        <jar destfile="${dist}/swingfx_src.jar"
+             basedir="${src}"
+             excludes="**/CVS/*"/>
+        <jar destfile="${dist}/swingfx_doc.jar"
+             basedir="${docs}"
+             excludes="**/CVS/*"/>
+    </target>
+
+<!--
+    Delete any generated files from previous builds
+-->
+    <target name="clean"
+            description="Delete any generated files from previous builds" >
+        <delete file="${dist}/swingfx.jar"/>
+        <delete dir="${build}" failonerror="false"/>
+        <delete dir="${docs}" failonerror="false"/>
+    </target>
+
+    <target name="canceldemo"
+        description="Demos the cancellable progress feature">
+        <java jar="swingfx.jar" fork="true"/>
+    </target>
+
+</project>

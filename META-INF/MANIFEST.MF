@@ -1,0 +1,965 @@
+Manifest-Version: 1.0
+
+Name: docs/net/java/swingfx/rubberband/demo/package-summary.html
+SHA1-Digest: PTvUhnpfNnhl1TyeHfHWDcCDfto=
+
+Name: docs/deprecated-list.html
+SHA1-Digest: /85nCKVsQteDzg8bkyHX+fWeNGw=
+
+Name: net/java/swingfx/rubberband/AnimatedStroke$1.class
+SHA1-Digest: k22hA59iksVbAyVLEAtGrO3HwXY=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/package-use.html
+SHA1-Digest: GM/n2kRF93nTAO2N+KMaG8jdP8s=
+
+Name: net/java/swingfx/rubberband/rubberbands/RubberBand.java
+SHA1-Digest: 4hGD9bnJYl7qvj4hk9HE/dCKi6U=
+
+Name: docs/api/allclasses-noframe.html
+SHA1-Digest: 2ZskUn9g1Of5WPwWb/QiOsvlEjs=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/package-tree.html
+SHA1-Digest: EwPKvHnqt+LIcfIBq3cNH4ej5zc=
+
+Name: net/java/swingfx/rubberband/demo/Main$MyPanel.class
+SHA1-Digest: 1CxrCB0h97fnEqfBy807QBMPKYI=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/DraggableLabel.html
+SHA1-Digest: S1mlIRtUcyPsIY0i2w6Er+E4zik=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/InfiniteProgressPanel.ht
+ ml
+SHA1-Digest: 2GmqusczuGHtIWFhW6EgXAXj6Ks=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main.class
+SHA1-Digest: +in+dN/udKDf3kqMcoGD7vLwwa4=
+
+Name: docs/api/index-files/index-16.html
+SHA1-Digest: MaXidDzsjrxui5guB8mQJZulJlw=
+
+Name: net/java/swingfx/imagecropper/ImageCropper.java
+SHA1-Digest: 1AoEg18FY2DJoTe1kj91hHTOWAo=
+
+Name: docs/index-files/index-10.html
+SHA1-Digest: V2sa8lyjG3vLL5fSEbDazZCBMQ4=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/AbstractRubberBand.
+ html
+SHA1-Digest: rDULoc/v8GRwwfxoavNtO9TjJCs=
+
+Name: docs/net/java/swingfx/jdraggable/class-use/DragPolicy.html
+SHA1-Digest: OmCFSuOXllceTZ0LwfuOI22gAOI=
+
+Name: docs/net/java/swingfx/waitwithstyle/AnimatedPanel.html
+SHA1-Digest: 3TNyHiXIpiQgkGznhGRpEKloeP4=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/package-use.html
+SHA1-Digest: X8dCTdCAnKDubeVjxcBamzL+M5o=
+
+Name: docs/api/index-files/index-9.html
+SHA1-Digest: 8gjSXOOMk4BslMLoPi7I0RCE7kU=
+
+Name: net/java/swingfx/jdraggable/DragPolicy$3.class
+SHA1-Digest: v5jzm9G2CFF9YRKlevmJiEEQl5k=
+
+Name: docs/index-files/index-16.html
+SHA1-Digest: Mnizob0DWi6/87HIM5latOjF/CA=
+
+Name: net/java/swingfx/waitwithstyle/InfiniteProgressAdapter.class
+SHA1-Digest: dGlaG5b+UuXo37wjS4ltH+3rEzc=
+
+Name: docs/api/constant-values.html
+SHA1-Digest: liaNdrUoZFXvVyCAg7m3VJQT+xs=
+
+Name: docs/api/src-html/net/java/swingfx/common/Utils.html
+SHA1-Digest: Gk1FCMD54FQRl1Tdzd9TCI4E4Yw=
+
+Name: docs/net/java/swingfx/waitwithstyle/package-frame.html
+SHA1-Digest: 0ED+SNss57ITe+HzJPeMMO7AeR4=
+
+Name: net/java/swingfx/imagecropper/demo/flower.jpg
+SHA1-Digest: n9ZoGtWmYNKvKn6wfe/i3i2Eoy4=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel$
+ 3.class
+SHA1-Digest: tVIGMaPno+Nafj8SHebVq+ibHqw=
+
+Name: docs/net/java/swingfx/jdraggable/demo/Main.html
+SHA1-Digest: BHxFPTEURpXZsXfRSGx6TnAILWg=
+
+Name: docs/package-list
+SHA1-Digest: 1yKZlU2MGaIvI+hghyNqlafs1H0=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/package-frame.html
+SHA1-Digest: i0HwEcyDKD4qvg0P+APqkJgtZ4o=
+
+Name: docs/net/java/swingfx/rubberband/canvas/package-frame.html
+SHA1-Digest: 2rPrjS2Fc5hNo/tjBS0k0wgKwMw=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel$
+ 1.class
+SHA1-Digest: uAO4Uod8Jc5SXMKVxw5jYgU1E0A=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgressPanel.class
+SHA1-Digest: KShtF0uGMbZL3hfUQpcVGbWKtgU=
+
+Name: docs/api/index-files/index-5.html
+SHA1-Digest: SMKN9IRp1xZKgrRhFrFB9mhJceU=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/class-use/AbstractR
+ ubberBand.html
+SHA1-Digest: pCzprLU0/Jq+3wrY/PW6htA6pKU=
+
+Name: docs/net/java/swingfx/jdraggable/demo/package-summary.html
+SHA1-Digest: tiktHbQatYtSt7D4nQ+0Myo9gYg=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/package-summary.htm
+ l
+SHA1-Digest: rA3oIhpDmqGcYRCXQlDBQGfe8ms=
+
+Name: docs/index-files/index-15.html
+SHA1-Digest: pZepUYwub8k7m/xhq6Pg+UkU2dQ=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/DraggableListener.
+ html
+SHA1-Digest: o+hqCvqipl1DeaQM04E/BXYWln4=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/class-use/InfiniteProgre
+ ssPanel.html
+SHA1-Digest: FpT5UD0nFcUt64bs734oPET84Ck=
+
+Name: docs/net/java/swingfx/rubberband/package-use.html
+SHA1-Digest: kKjsDMRIZilGHOGxc/tdJGxhb74=
+
+Name: docs/net/java/swingfx/common/package-frame.html
+SHA1-Digest: yV2WjLpP2uHiEsf068dE9Hd8ZJk=
+
+Name: net/java/swingfx/jdraggable/DraggableManager.class
+SHA1-Digest: 4Dov10HtnMj2QHLeTqVB0ygQLLA=
+
+Name: net/java/swingfx/rubberband/rubberbands/RectangularRubberBand.cl
+ ass
+SHA1-Digest: 7x54vpg1wMN68sScQqE2Ji0vaX0=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$LookupWorkerRun
+ nable$3.class
+SHA1-Digest: XGBtSZMbKEW3SHXBQ5OoOmB3RcI=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter$5.class
+SHA1-Digest: c9kOSHbagx8P/r0Y5fswMScSD/E=
+
+Name: net/java/swingfx/jdraggable/DraggableManager.java
+SHA1-Digest: DTFD8hmbmsKJ8BEqWklmtsAhrjQ=
+
+Name: .project
+SHA1-Digest: kwkw9M6od/CarQ74mH88pN0yxyo=
+
+Name: docs/net/java/swingfx/jdraggable/demo/package-frame.html
+SHA1-Digest: Yt1Y6oPX9qXQTH3x+kTxxwVAtD8=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter.class
+SHA1-Digest: mn9kSMz4gQr/ds2ZEFTsaeBbZfU=
+
+Name: docs/api/overview-tree.html
+SHA1-Digest: 63RIi68IZZcqZEIoSOpXoM4lXdE=
+
+Name: docs/net/java/swingfx/rubberband/class-use/AnimatedStroke.html
+SHA1-Digest: oGWwFxwteTq/8iwHj7dkQVVFfsQ=
+
+Name: net/java/swingfx/jdraggable/package.html
+SHA1-Digest: FzNfXc4fLFFQfnKSyrXYnFZtOos=
+
+Name: net/java/swingfx/jdraggable/DraggableMask.java
+SHA1-Digest: Tu/0oHZ6YpH73cJ1UjKOtGFlvI0=
+
+Name: docs/api/net/java/swingfx/common/class-use/Utils.html
+SHA1-Digest: P4FLdpohAbJdH+w8Dyas/SJnhts=
+
+Name: docs/api/net/java/swingfx/common/package-use.html
+SHA1-Digest: o3M+nUNCo/7rTzucT/jArZaTMlM=
+
+Name: net/java/swingfx/jdraggable/demo/Main.class
+SHA1-Digest: C/OrSWg12Qwo6gzimWdhi1Ubwig=
+
+Name: net/java/swingfx/waitwithstyle/package.html
+SHA1-Digest: x4YRmfLiPhRj0tHa7ci0mCwbMS8=
+
+Name: docs/overview-summary.html
+SHA1-Digest: 0R9DSgQHTs3hv+pWpSAiXifEjwQ=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/Main.html
+SHA1-Digest: cN5PHAxL+xOiRCRviOvYsd1gypA=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$LookupWorkerRun
+ nable.class
+SHA1-Digest: npm5BMDUVLLu8h9e7ZBizxrURpc=
+
+Name: docs/net/java/swingfx/jdraggable/demo/package-use.html
+SHA1-Digest: EsOsPvCJdIVet/p31htxxXLWZrk=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/AnimatedRectangular
+ RubberBand.html
+SHA1-Digest: cIdprM2gppubKGesQK/oKbovnEY=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/DraggableManager.h
+ tml
+SHA1-Digest: Y9Rmy0lmb9+8HaAurPXfDDLdRmw=
+
+Name: docs/api/net/java/swingfx/jdraggable/package-summary.html
+SHA1-Digest: KpITaWK8rvYL+BI/o/Wtj28Ekmc=
+
+Name: net/java/swingfx/rubberband/demo/package.html
+SHA1-Digest: ZXVZ/5aPfY0HPktI3Ed0EsFnkAI=
+
+Name: project/IDEA/.cvsignore
+SHA1-Digest: GtqoTcB6FtNO3luacHE/+DKg+FM=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/Draggable.html
+SHA1-Digest: xnui4regaAEs3zTaMWzWT0mhUis=
+
+Name: net/java/swingfx/jdraggable/demo/DraggablePanel.java
+SHA1-Digest: oKGcQDgLauZoq02oArqQZ9nMo70=
+
+Name: docs/api/resources/inherit.gif
+SHA1-Digest: 42+8XxPTdk4LcKDh/HbbyXG+EKI=
+
+Name: docs/api/index-files/index-6.html
+SHA1-Digest: vzADYP/xsis57UQTX3cqS6QbtIo=
+
+Name: docs/net/java/swingfx/jdraggable/package-summary.html
+SHA1-Digest: VWdaSUJaW/eZlNEEMSRtfmK63Lw=
+
+Name: docs/net/java/swingfx/common/Utils.html
+SHA1-Digest: tC1iIZ2aLJU1vj43o1Nz3zjS9Ew=
+
+Name: docs/api/index-files/index-14.html
+SHA1-Digest: gea+FpdsV+0yQs2B8l/6kWKOj4M=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/class-use/RubberBan
+ d.html
+SHA1-Digest: D5qOY79VGE3kU2xK6hyJjlnL0Xk=
+
+Name: docs/api/index-files/index-3.html
+SHA1-Digest: JPXziWhlEFx+eo105wKimRgV3hg=
+
+Name: net/java/swingfx/rubberband/rubberbands/RubberBand.class
+SHA1-Digest: e3HneAhfaEe4nHhlIzi/bQdOGXM=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel$
+ 2.class
+SHA1-Digest: F+M53bcWQ7FLjVrTxEWgz06uJDQ=
+
+Name: docs/net/java/swingfx/rubberband/package-frame.html
+SHA1-Digest: Uhi4odl+HjDPZtvWhwH5pz16WNA=
+
+Name: docs/api/net/java/swingfx/jdraggable/class-use/DraggableManager.
+ html
+SHA1-Digest: KgDr2cyvrhtFyKl7oGFsX5XcqmA=
+
+Name: net/java/swingfx/jdraggable/DraggableListener.java
+SHA1-Digest: zSPGut6YRNTW/rxJUtUK9UWykD8=
+
+Name: docs/api/net/java/swingfx/common/Utils.html
+SHA1-Digest: KXSPrG5LgovCllpDwrXwXAl6UCA=
+
+Name: project/IDEA/SwingFX/SwingFX.iml
+SHA1-Digest: J9siNirhx0JgqHnmDMzPviiSmbo=
+
+Name: net/java/swingfx/rubberband/rubberbands/AnimatedRectangularRubbe
+ rBand.class
+SHA1-Digest: nHi3gDIbIx1ggzfWleaVq0IeK4Y=
+
+Name: net/java/swingfx/jdraggable/demo/package.html
+SHA1-Digest: hD3JvKKG0MeEOYoNieKKLXfolqQ=
+
+Name: docs/api.html
+SHA1-Digest: WPHuh9nPjeH5RwQCsRt41aJs7C0=
+
+Name: docs/net/java/swingfx/jdraggable/demo/class-use/Main.html
+SHA1-Digest: zCqNW0zi52MaVdP0P3dAr8IRP40=
+
+Name: docs/net/java/swingfx/common/package-summary.html
+SHA1-Digest: Kpt2tcePdjbaWuiUIjnI8kblCNY=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main.java
+SHA1-Digest: Vm3Aq/3MZA7EZEDaiBruUxOZEEM=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter.java
+SHA1-Digest: aIydk7hdtoAUXpor2Q32PHk0nJQ=
+
+Name: net/java/swingfx/imagecropper/demo/Main$1.class
+SHA1-Digest: L8FQnrxXjMhm2LxClfHA9V9GYh0=
+
+Name: docs/api/help-doc.html
+SHA1-Digest: KE4J6QuXY5dAvukaVXAHyuyrmLo=
+
+Name: docs/api/index-files/index-7.html
+SHA1-Digest: O5SIp3MfTXNvlsYwUd8WkvAGLck=
+
+Name: .classpath
+SHA1-Digest: 6SXYNrNcNg7j+XDS2eUQCZ4dSV4=
+
+Name: docs/help-doc.html
+SHA1-Digest: kUIwYqbO+TzNfXF9rP3smgURCLc=
+
+Name: docs/net/java/swingfx/jdraggable/class-use/DraggableListener.htm
+ l
+SHA1-Digest: Q9CQ6psTviV/I68RuvbEsOVDkeM=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/DefaultDraggableMa
+ nager.html
+SHA1-Digest: 4FH6/AbWBtGIXiaPox48gcsZYFw=
+
+Name: docs/index-files/index-5.html
+SHA1-Digest: nJJh4jrtswky94p7p5VYiBWvvF0=
+
+Name: net/java/swingfx/waitwithstyle/CancelableAdaptee.class
+SHA1-Digest: zbI4Q+pA7ghwKJXaNUuKg1q+QfU=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel.
+ java
+SHA1-Digest: gJuoGrDZ1mmrQ/tFeEa6/lzSXrg=
+
+Name: docs/api/net/java/swingfx/jdraggable/DraggableMask.html
+SHA1-Digest: hVEm2wCebiwtVpL9yIHB612WZBY=
+
+Name: docs/api/index-files/index-13.html
+SHA1-Digest: I5DlqWzjgKA0EA8dqzFZrD2ZPaE=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel$
+ 5.class
+SHA1-Digest: 6vY/1cxrt+n3WKiCtZ1ChZ+WoJg=
+
+Name: docs/api/net/java/swingfx/jdraggable/DraggableListener.html
+SHA1-Digest: TXwHm7a2whhb41N243A4/oy3H4M=
+
+Name: docs/net/java/swingfx/rubberband/canvas/package-summary.html
+SHA1-Digest: 040DQ75lFAVwh6Vb+kso4oBE4wQ=
+
+Name: docs/net/java/swingfx/waitwithstyle/AnimatedPanel.HighlightCycle
+ r.html
+SHA1-Digest: GA3pS0W8jykSlCAfjFaMZKy+h4c=
+
+Name: docs/net/java/swingfx/waitwithstyle/package-tree.html
+SHA1-Digest: Dfar+Tp7sxrcjRbA7oc9KBZG2kQ=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/RectangularRubberBa
+ nd.html
+SHA1-Digest: bG5XRdqOuU8pgUiSzp+zWgn4+yA=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$2.class
+SHA1-Digest: MZYmHvbRlKEog+a3hbffQ8JJVS4=
+
+Name: net/java/swingfx/jdraggable/demo/DraggableLabel.class
+SHA1-Digest: cNfU91xSv1Wr4Pi5n8hEv6V5Kbg=
+
+Name: docs/net/java/swingfx/jdraggable/demo/DraggablePanel.html
+SHA1-Digest: y0USIjPOOcZdBAXwwPRrasa044w=
+
+Name: net/java/swingfx/waitwithstyle/AnimatedPanel.class
+SHA1-Digest: F0zRyLNGUJVOtPyvnIYgplpa0xE=
+
+Name: docs/net/java/swingfx/rubberband/canvas/package-tree.html
+SHA1-Digest: EPoUuGCZInPLTR7TUICg3HTtNWM=
+
+Name: docs/net/java/swingfx/jdraggable/DragPolicy.html
+SHA1-Digest: qNeHhy875028m0n+Ide06e+QxtQ=
+
+Name: net/java/swingfx/rubberband/demo/Main.class
+SHA1-Digest: U19rznoomcVc8OZ5qFi2Trsh6gk=
+
+Name: docs/overview-tree.html
+SHA1-Digest: 3o/tByJdNq2KMz8nMyfvb9sr2V8=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/package-tree.html
+SHA1-Digest: oYZPrjPd0MTPGVk9sV8ccbHlf9Y=
+
+Name: www/index.html
+SHA1-Digest: seMi4vDD2EX47taw4PgVhrC0aKs=
+
+Name: docs/index-files/index-8.html
+SHA1-Digest: afXR3jWVQxkc/si5YWP4dgdKVF0=
+
+Name: net/java/swingfx/rubberband/rubberbands/package.html
+SHA1-Digest: xAmweNaym1gmcaonZP+lmZEj3GE=
+
+Name: net/java/swingfx/rubberband/canvas/package.html
+SHA1-Digest: Jkuwrlft/XKd+rquWvY9xwRec8g=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter$1.class
+SHA1-Digest: hQYeGWVzoHWbg4seiSirtgHtkPk=
+
+Name: net/java/swingfx/rubberband/rubberbands/RectangularRubberBand.ja
+ va
+SHA1-Digest: 2aPvg20Q3aGt41gf4+GEuOpbOjk=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgressPanel.java
+SHA1-Digest: 7ZDOelDVbeztmphw/BvUIQNON68=
+
+Name: docs/api/allclasses-frame.html
+SHA1-Digest: 6t+3+K8pPE+oUVeS3dB2OUug5Lg=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter$4.class
+SHA1-Digest: DXsBsyH9FSzlCahjtFV2YvGUeKU=
+
+Name: net/java/swingfx/rubberband/rubberbands/OvalRubberBand.java
+SHA1-Digest: T2k9MOpL1n7+4inJthL8rquLTPM=
+
+Name: docs/api/stylesheet.css
+SHA1-Digest: XZYLdj3x+TZJjCIWGztBIFe+oe4=
+
+Name: net/java/swingfx/common/Utils.class
+SHA1-Digest: vqzXTodOM9doFCHvnFBocosLrIY=
+
+Name: net/java/swingfx/waitwithstyle/InfiniteProgressPanel.java
+SHA1-Digest: HUTdAcWahzITmGk5dTotaL6eH1E=
+
+Name: docs/api/serialized-form.html
+SHA1-Digest: f1I4OwLi8mPNdvmtMn57beePvpU=
+
+Name: net/java/swingfx/jdraggable/DragPolicy.class
+SHA1-Digest: ZcGHRv/hd7r23wkM7JnMem6JRG4=
+
+Name: docs/index.html
+SHA1-Digest: idZVtzUZfG6JGFI0mX35XFtDqF0=
+
+Name: docs/net/java/swingfx/rubberband/canvas/class-use/RubberBandCanv
+ as.html
+SHA1-Digest: QOL31iol8aJ3jT4w2sjGYpId/hk=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$1.class
+SHA1-Digest: 9BsyOOdG6JaSnHTm8+BSzZG2Ovk=
+
+Name: docs/allclasses-noframe.html
+SHA1-Digest: pl6xwUmgh7g/i0eLZ7iQz5QRjaA=
+
+Name: docs/index-files/index-7.html
+SHA1-Digest: vTrl7ywFi4d0ufUc/ug6F0IQaYM=
+
+Name: docs/index-files/index-3.html
+SHA1-Digest: gWcq3TVmxkpUOYwmQigiKnZoGi8=
+
+Name: project/IDEA/SwingFX.ipr
+SHA1-Digest: PHfqsjCzYh3vZLy8pmwOvXL6V8w=
+
+Name: docs/api/net/java/swingfx/jdraggable/DragPolicy.html
+SHA1-Digest: eQ1opKars4ZhWeUR0CRd2MnK9sg=
+
+Name: net/java/swingfx/jdraggable/DragPolicy.java
+SHA1-Digest: hgyOpVzdWl2NKlZ1NmDBxjUOZYM=
+
+Name: docs/api/net/java/swingfx/jdraggable/DefaultDraggableManager.htm
+ l
+SHA1-Digest: e8IbiUdDW65gg1SRC0viRtmygpM=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/class-use/DraggableLab
+ el.html
+SHA1-Digest: oi3HlIONqnDpBmFII8+NHqJZENY=
+
+Name: docs/allclasses-frame.html
+SHA1-Digest: oNxM4ItufSTeQKPUHrqOwHAH2SI=
+
+Name: net/java/swingfx/jdraggable/DragPolicy$2.class
+SHA1-Digest: +5De/hI458ZmK+LI4MRMxTs5qMM=
+
+Name: docs/index-files/index-6.html
+SHA1-Digest: VJoV2XbE/M1dJu82b+LoVdmjFdI=
+
+Name: net/java/swingfx/waitwithstyle/AnimatedPanel$HighlightCycler.cla
+ ss
+SHA1-Digest: 8Vupz7gUt+ukqqiyZkEcO6JUsxc=
+
+Name: docs/net/java/swingfx/waitwithstyle/class-use/PerformanceInfinit
+ eProgressPanel.html
+SHA1-Digest: /3DJ1m3LYZNw/ASl3VWVKTktonk=
+
+Name: docs/net/java/swingfx/waitwithstyle/InfiniteProgressPanel.html
+SHA1-Digest: 3bOcW1A6fUmUIqO6LmUs5gNnZK8=
+
+Name: docs/api/src-html/net/java/swingfx/waitwithstyle/InfiniteProgres
+ sPanel.html
+SHA1-Digest: J52BcIMvhErfGaTVwkAY+mZzMu0=
+
+Name: docs/index-files/index-4.html
+SHA1-Digest: rIw8v8j0+3raqtwMTo+xwmbP4U8=
+
+Name: docs/net/java/swingfx/jdraggable/Draggable.html
+SHA1-Digest: EyFzXMGbMaldAIfPVnbhsHJ7awk=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/RubberBand.html
+SHA1-Digest: hyBbVFHlVn7949/AJuRBxUfGZO4=
+
+Name: net/java/swingfx/jdraggable/DefaultDraggableManager.java
+SHA1-Digest: ocAACHrBHW9SIS0ZR9QdaIXjctI=
+
+Name: net/java/swingfx/waitwithstyle/InfiniteProgressPanel$Ticker.clas
+ s
+SHA1-Digest: T6ZbZWYSwCI3Om9c2rK1JGFnLPQ=
+
+Name: net/java/swingfx/jdraggable/demo/Main.java
+SHA1-Digest: scBvrTSgyqyRaOC+7nQY49mtD6Q=
+
+Name: net/java/swingfx/imagecropper/ImageCropper$1.class
+SHA1-Digest: ylrxre3p05NUPGJlHCCjw7RFu2Y=
+
+Name: net/java/swingfx/rubberband/canvas/RubberBandCanvas.class
+SHA1-Digest: TqOhk93in1v00Y7+YZrdBAstEc0=
+
+Name: net/java/swingfx/rubberband/rubberbands/AbstractRubberBand.class
+SHA1-Digest: v18ph2FmdDE2Wm+PlO2HhOoS4DM=
+
+Name: docs/index-files/index-1.html
+SHA1-Digest: 2Zr/RIezILicglPXW52DrY9VsI4=
+
+Name: docs/api/index.html
+SHA1-Digest: AceXxo44pNwbkGXINBF5mTYIytM=
+
+Name: docs/index-files/index-11.html
+SHA1-Digest: 6jqpL8Isr+/5mbQ8IwAAaukzN+o=
+
+Name: docs/api/package-list
+SHA1-Digest: 9qfGuUXwUETOapngkmU0Ezz5vO0=
+
+Name: net/java/swingfx/jdraggable/DraggableListener.class
+SHA1-Digest: qw+EdK6lwp6pN3Fh4nr5DiaXOQo=
+
+Name: net/java/swingfx/jdraggable/demo/Main$1.class
+SHA1-Digest: 3ujTdioXWXYOWOD8CTqbTvK8P4Q=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/OvalRubberBand.html
+SHA1-Digest: b7EDt7Y54e3dWGz+hosBEp3UvTY=
+
+Name: docs/stylesheet.css
+SHA1-Digest: XZYLdj3x+TZJjCIWGztBIFe+oe4=
+
+Name: docs/serialized-form.html
+SHA1-Digest: zyOlQU6UUXx2FQ/lX00kFvhH/ss=
+
+Name: docs/net/java/swingfx/rubberband/canvas/package-use.html
+SHA1-Digest: kSk3KStr79ueXT8m/JRMPREB/hE=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter$3.class
+SHA1-Digest: kl7LNH2lS4hjEp0FBeKRe9jPxMA=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/package-frame.html
+SHA1-Digest: mj+ePenqAKlEsVnbx78ljOO8Qjg=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/class-use/Main.html
+SHA1-Digest: uOYuvrEzgjGiQh40iXhbyuQk3sY=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceCancelableProgressPane
+ l.java
+SHA1-Digest: 6vXsl5fBW+xHhfQOH8QMEQ0+e8U=
+
+Name: lib/place_holder.txt
+SHA1-Digest: OdccMw3yb4hRQrPVNoATKqtMnSo=
+
+Name: docs/index-files/index-14.html
+SHA1-Digest: cwDkk3VQqJh3R/D9NCChMEXSiwE=
+
+Name: net/java/swingfx/jdraggable/demo/DraggablePanel.class
+SHA1-Digest: QUaxSpJHE1xds6kuPOtpwWmmHbw=
+
+Name: docs/api/net/java/swingfx/jdraggable/class-use/DraggableListener
+ .html
+SHA1-Digest: M+BsJMSGc8Oe+6/dDyYTFqz7IQk=
+
+Name: project/IDEA/SwingFX.iws
+SHA1-Digest: H2ZBpnLiVhGqSmBcTL3iHzCwtiI=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/class-use/DraggablePan
+ el.html
+SHA1-Digest: DtevuFv952VUJ5kJPN2VRJYF4so=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/DraggablePanel.html
+SHA1-Digest: YXmRt1ggo8RndHCzjedQC18lHgY=
+
+Name: docs/net/java/swingfx/waitwithstyle/class-use/InfiniteProgressPa
+ nel.html
+SHA1-Digest: IvxxmzlE2K8B4mNMJazvtLjIRwM=
+
+Name: net/java/swingfx/imagecropper/ImageCropper$InnerListener.class
+SHA1-Digest: gBseLd7l4FDryHR/CTj/g7AK0TI=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel$
+ 4.class
+SHA1-Digest: btp1VkaQ36vFIMNxs7dd6gJprso=
+
+Name: docs/api/index-files/index-2.html
+SHA1-Digest: frtPLItbIsvqUdn1upnyJI68Dpw=
+
+Name: docs/api/index-files/index-10.html
+SHA1-Digest: mKlztnniJARvU6qPnIbTmoSA1s0=
+
+Name: docs/net/java/swingfx/jdraggable/DefaultDraggableManager.html
+SHA1-Digest: 8HMSgq0WsdjqR9YA7wBS2z2pdZM=
+
+Name: docs/net/java/swingfx/waitwithstyle/class-use/AnimatedPanel.High
+ lightCycler.html
+SHA1-Digest: F9I9ASCZdiX/Q01YM3bYvImaj1Y=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/AnimatedPanel.html
+SHA1-Digest: JVZw96tfqhc8Cswh/3mBN+YKqgk=
+
+Name: docs/api/index-files/index-12.html
+SHA1-Digest: xxzIR6M0jqU/53B4upPQNxH8EkY=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/package-summary.html
+SHA1-Digest: kCMSoa3/lBoYbNBHl02jAt6o+dU=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$LookupWorkerRun
+ nable$2.class
+SHA1-Digest: 1ID/qZjbbfUXIVonllTBbIb1/10=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/class-use/Rectangul
+ arRubberBand.html
+SHA1-Digest: g8834fLCXFTE+/zRytrFweni1Bs=
+
+Name: docs/api/net/java/swingfx/jdraggable/package-use.html
+SHA1-Digest: g1hLYqLyJ7g6UrROo132jXcyphE=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel.class
+SHA1-Digest: PcfoEl8e7nu+kqLJ70/5UdUp5ys=
+
+Name: net/java/swingfx/rubberband/demo/Main.java
+SHA1-Digest: UWHxCYtvG4vpiilctOTHbfomg0Q=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$LookupWorkerRun
+ nable$1.class
+SHA1-Digest: z84wtu//1VksHeADoMrY/jNZges=
+
+Name: docs/api/net/java/swingfx/jdraggable/class-use/DragPolicy.html
+SHA1-Digest: 3acAkYmk/DF60td9qcgc68I/ADg=
+
+Name: net/java/swingfx/rubberband/rubberbands/AnimatedRectangularRubbe
+ rBand.java
+SHA1-Digest: IxE50e1bd+KomPJIjPKfN0h8LQc=
+
+Name: net/java/swingfx/waitwithstyle/demo/Main$MyPanel$LookupWorkerRun
+ nable$4.class
+SHA1-Digest: kHdPDSvFuhiOwTEPphydnEdYh38=
+
+Name: docs/api/index-files/index-4.html
+SHA1-Digest: fYxoj2noVqvlXaXIO0NAaXUulY8=
+
+Name: net/java/swingfx/jdraggable/DraggableMask.class
+SHA1-Digest: xkokkN5JPa/MT+1H0mKle+enxqM=
+
+Name: net/java/swingfx/rubberband/AnimatedStroke.class
+SHA1-Digest: 8ACU8pj66X1lelQwWt57zVY3kn4=
+
+Name: docs/api/net/java/swingfx/jdraggable/Draggable.html
+SHA1-Digest: Hn3ed2pAKK3UOX4vsGqTekblp80=
+
+Name: net/java/swingfx/imagecropper/ImageCropper$3.class
+SHA1-Digest: t9KSfpSpftXlR6ZvaYo8+oo5Ss8=
+
+Name: docs/index-files/index-13.html
+SHA1-Digest: HHDpNA1nJFlF4z4Pd55xgkPRnrI=
+
+Name: docs/net/java/swingfx/rubberband/demo/package-tree.html
+SHA1-Digest: UdXC2U8d605TpNJc8cB7DrrL58A=
+
+Name: docs/api/overview-frame.html
+SHA1-Digest: 6oD8aR8M2THSfmxbfj0NTaeDD2E=
+
+Name: net/java/swingfx/waitwithstyle/AnimatedPanel.java
+SHA1-Digest: euOJ9OrSRgTS2DnTCZnZZsjKs2s=
+
+Name: docs/net/java/swingfx/jdraggable/package-use.html
+SHA1-Digest: kmhc38PHbxM+YweEuP3mcMCRP3w=
+
+Name: docs/api/net/java/swingfx/jdraggable/DraggableManager.html
+SHA1-Digest: D8rGd6ofNz2nkQtSKYipLprKuig=
+
+Name: net/java/swingfx/rubberband/rubberbands/AbstractRubberBand.java
+SHA1-Digest: 6+BJVPPoecnUaCDm1EOqB+7eVMU=
+
+Name: net/java/swingfx/jdraggable/demo/DraggableLabel.java
+SHA1-Digest: 28eYvF+P/fuzVBWPVnyVtNU4FoM=
+
+Name: docs/net/java/swingfx/rubberband/demo/Main.html
+SHA1-Digest: jVlYeOf9n51xdYBAfxV4E8AaS7U=
+
+Name: .cvsignore
+SHA1-Digest: ml1WcW1WaZf6KQBU0WGvljBa/5o=
+
+Name: docs/api/src-html/net/java/swingfx/waitwithstyle/AnimatedPanel.h
+ tml
+SHA1-Digest: HOnBkIt2gQSP5JCHTPYztad0NQk=
+
+Name: meta-inf/Manifest.mf
+SHA1-Digest: 6w42dR4VMvkv4bQWbSZhRr9DG9s=
+
+Name: net/java/swingfx/imagecropper/demo/Main.java
+SHA1-Digest: SrSvsbvwqIXnWDwyg3edy5Sav1Y=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/demo/Main.html
+SHA1-Digest: 3maQlL2Jx2go62mUhWcO9s+gOhg=
+
+Name: build.xml
+SHA1-Digest: 9ErH6i57igyVUWld9I9Fka+jCKY=
+
+Name: net/java/swingfx/rubberband/package.html
+SHA1-Digest: I+EXu3L5ayOFkvkFQo78Z1grXa4=
+
+Name: docs/overview-frame.html
+SHA1-Digest: LjnXp6i7cunaQX5kfLLovNWcQ7g=
+
+Name: docs/net/java/swingfx/jdraggable/DraggableMask.html
+SHA1-Digest: wMMs4t23ZiOiG5ykn3K1Piy02WM=
+
+Name: docs/api/deprecated-list.html
+SHA1-Digest: eki/lUPfMz6NZ0kSB36LYzlrQ6k=
+
+Name: docs/net/java/swingfx/common/class-use/Utils.html
+SHA1-Digest: z+TVSPSxBiaC/QwiRG81Vf+rFWE=
+
+Name: docs/net/java/swingfx/rubberband/package-summary.html
+SHA1-Digest: qkJHjvLwSaolcBRPQdKt6AlaFW4=
+
+Name: docs/net/java/swingfx/jdraggable/package-frame.html
+SHA1-Digest: AxeHJ9ex11rA8DCaoEpSZ5Q24FI=
+
+Name: net/java/swingfx/jdraggable/Draggable.java
+SHA1-Digest: dj8HsZb0Fh8aMEbnFQ5JsH3VnLw=
+
+Name: net/java/swingfx/jdraggable/Draggable.class
+SHA1-Digest: Coxqa8+Gxyp1O/hkNuemEfdEL8U=
+
+Name: docs/net/java/swingfx/jdraggable/DraggableManager.html
+SHA1-Digest: jt8oayi+llt/ry2umcv+J4GPB8o=
+
+Name: net/java/swingfx/waitwithstyle/CancelableProgessAdapter$2.class
+SHA1-Digest: QABoTvQ9Q5RdSRcT8OI+wvfeB8g=
+
+Name: docs/net/java/swingfx/jdraggable/package-tree.html
+SHA1-Digest: i307bIzQeyP4G5/oEukoodI50G0=
+
+Name: docs/api/net/java/swingfx/jdraggable/package-frame.html
+SHA1-Digest: 5nciWDToBZx5zZmkFOcBbD+xxfs=
+
+Name: docs/api/net/java/swingfx/jdraggable/package-tree.html
+SHA1-Digest: lV2hoZoE2hZP9S7aP1gIA6HH1kc=
+
+Name: docs/index-files/index-12.html
+SHA1-Digest: x5dNQR3h//soWBIizaprqsuaK14=
+
+Name: net/java/swingfx/jdraggable/DefaultDraggableManager.class
+SHA1-Digest: Hmfwj6zTDn8YTe5aH2TJamgiFPk=
+
+Name: docs/net/java/swingfx/jdraggable/DraggableListener.html
+SHA1-Digest: fyOnhB9yl0DG7gb5srXq0TJSXDk=
+
+Name: docs/net/java/swingfx/waitwithstyle/package-use.html
+SHA1-Digest: pP3I3dNfbPW+kghXGkPxbhvRkXE=
+
+Name: docs/api/overview-summary.html
+SHA1-Digest: 0RXy+UWu3xcQpHeTFOmwPE+CW5A=
+
+Name: docs/net/java/swingfx/rubberband/demo/class-use/Main.html
+SHA1-Digest: aVWYqyjbW7JDLqGhycvAlbJeOKk=
+
+Name: project/IDEA/SwingFX/.cvsignore
+SHA1-Digest: GtqoTcB6FtNO3luacHE/+DKg+FM=
+
+Name: docs/api/index-files/index-1.html
+SHA1-Digest: zjG0fm8Wwq2rYN5Tx83d8Vd7fMk=
+
+Name: docs/net/java/swingfx/jdraggable/demo/class-use/DraggableLabel.h
+ tml
+SHA1-Digest: J8fdWIkqQNdff1wVm73UnQ0YG5Q=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressPanel.
+ class
+SHA1-Digest: 6BQ/OzfkyRpJtI8CY8J3TD1+D1U=
+
+Name: docs/net/java/swingfx/rubberband/AnimatedStroke.html
+SHA1-Digest: BHWyLTCvXmZlwyWYyD/lVEZ7C2E=
+
+Name: docs/api/net/java/swingfx/common/package-frame.html
+SHA1-Digest: lNkawKaKLrOhsbmREUbbPdmy7kY=
+
+Name: docs/index-files/index-2.html
+SHA1-Digest: Ncm2wUvM0kQmEl4T0nPSnbjq9TI=
+
+Name: docs/net/java/swingfx/jdraggable/class-use/DraggableMask.html
+SHA1-Digest: cHs00gWITYH5QJVHGZC7icIFRL8=
+
+Name: www/arrow.gif
+SHA1-Digest: IbSBKUg+y/iND+7bT2jkpBSfx98=
+
+Name: docs/LICENSE
+SHA1-Digest: 8yII+rRtKReAMLUo3l+/FPNxKzs=
+
+Name: net/java/swingfx/jdraggable/DragPolicy$1.class
+SHA1-Digest: +ByEuRTLJSxNC6q8RXgrJiJbjsE=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/class-use/AnimatedPanel.
+ html
+SHA1-Digest: 5algmOpyVdu17R5i9DaMkpiZTUc=
+
+Name: docs/api/index-files/index-15.html
+SHA1-Digest: rqQoCnz2KM3ojHlZwgyjDAxbo1M=
+
+Name: docs/api/net/java/swingfx/jdraggable/class-use/DraggableMask.htm
+ l
+SHA1-Digest: o0RupcYCDyvG4cJcPhv/zDRFU5w=
+
+Name: docs/net/java/swingfx/common/package-use.html
+SHA1-Digest: ONoXqNBwHq52zPo2cfZ1cU08mqM=
+
+Name: docs/net/java/swingfx/rubberband/demo/package-frame.html
+SHA1-Digest: jymrvIfKksMPRRmxR+4yERGMlSY=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/class-use/OvalRubbe
+ rBand.html
+SHA1-Digest: exD2poo5QJyCb1b2PiZN4G/2USQ=
+
+Name: net/java/swingfx/rubberband/AnimatedStroke.java
+SHA1-Digest: 8kQgmfNpYOL7mG6UOSGDzX1Tb8E=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/class-use/AnimatedR
+ ectangularRubberBand.html
+SHA1-Digest: pJvAS+rqCabXWL3Nn6ftFLrzzEk=
+
+Name: docs/net/java/swingfx/jdraggable/demo/class-use/DraggablePanel.h
+ tml
+SHA1-Digest: kN76bXdHJdhpe+IKAaqm1ygj3eg=
+
+Name: net/java/swingfx/components/package.html
+SHA1-Digest: 1l0Pi2qrCtJigo9uLnUjoJcWNfY=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/package-summary.html
+SHA1-Digest: fL8KR8HggXDPb2Igv2MVI7X5EX0=
+
+Name: docs/net/java/swingfx/rubberband/canvas/RubberBandCanvas.html
+SHA1-Digest: aJWkMu1upRMZdG8T6LcanRe2X4U=
+
+Name: docs/net/java/swingfx/rubberband/demo/package-use.html
+SHA1-Digest: 28LHh0FiyL6gNraX0/s9ZUbDCrE=
+
+Name: docs/api/net/java/swingfx/common/package-summary.html
+SHA1-Digest: 4wRTHFuu+A+stPaxd82w4ww7HHw=
+
+Name: net/java/swingfx/waitwithstyle/InfiniteProgressPanel.class
+SHA1-Digest: O75Vj+v4CaxappGyILUqRC48wqQ=
+
+Name: docs/net/java/swingfx/waitwithstyle/PerformanceInfiniteProgressP
+ anel.html
+SHA1-Digest: uEkGX1Z4yU2rRm1C83k36mT4OJA=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/DragPolicy.html
+SHA1-Digest: btUNlKf/vFwu55w0mU5cHYEhMUI=
+
+Name: docs/net/java/swingfx/rubberband/rubberbands/package-use.html
+SHA1-Digest: sHA0s/OgaBcbh9f6mHOTYbS/QwI=
+
+Name: docs/api/net/java/swingfx/jdraggable/class-use/DefaultDraggableM
+ anager.html
+SHA1-Digest: 0chtuF3Mo7ty0QJSvIwDp180Xmc=
+
+Name: net/java/swingfx/common/Utils.java
+SHA1-Digest: Wo9fPNMrNRufsksKgOvmoEch6vU=
+
+Name: net/java/swingfx/rubberband/rubberbands/OvalRubberBand.class
+SHA1-Digest: xFSZLN4FA0QvnJPcRZZrRddqHPQ=
+
+Name: net/java/swingfx/waitwithstyle/InfiniteProgressAdapter.java
+SHA1-Digest: jvz4Wzh9Kb761/OF3YDygHbWZtU=
+
+Name: docs/net/java/swingfx/rubberband/package-tree.html
+SHA1-Digest: kmpGbzyqnVujG2hIsVu8kMxYG7E=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/demo/DraggablePane
+ l.html
+SHA1-Digest: JVxanM/bMYZxG7IhebPLzWruAes=
+
+Name: docs/resources/inherit.gif
+SHA1-Digest: 42+8XxPTdk4LcKDh/HbbyXG+EKI=
+
+Name: docs/api/index-files/index-8.html
+SHA1-Digest: xN9WfoLUuUB7vqB/WF4rQmVLyIY=
+
+Name: docs/api/net/java/swingfx/waitwithstyle/package-tree.html
+SHA1-Digest: 0b57Y6ryYD7bpEWCl/XJGlYsujs=
+
+Name: net/java/swingfx/common/package.html
+SHA1-Digest: tAO8C4XjpWlXhLmATKwf2ePIuYc=
+
+Name: docs/net/java/swingfx/jdraggable/demo/package-tree.html
+SHA1-Digest: hBnTdur0gEW7V3QpMAgxTP7tg+0=
+
+Name: net/java/swingfx/waitwithstyle/InfiniteProgressPanel$Animator.cl
+ ass
+SHA1-Digest: GrAL9kFg66k8UefICtiDx6qMqyY=
+
+Name: docs/net/java/swingfx/jdraggable/class-use/DefaultDraggableManag
+ er.html
+SHA1-Digest: y3h6XHacbmTiJUM7fnL3uQvOLs0=
+
+Name: docs/api/packages.html
+SHA1-Digest: YU/rJT0RXLnAouOaR94VhlZP5/I=
+
+Name: docs/net/java/swingfx/waitwithstyle/class-use/AnimatedPanel.html
+SHA1-Digest: uluvHHmCJ+5tXNdapyuGfDropGk=
+
+Name: net/java/swingfx/imagecropper/ImageCropper$2.class
+SHA1-Digest: W0jGUTzkIR+mrRiWpQiiR/wj4Oc=
+
+Name: net/java/swingfx/waitwithstyle/PerformanceCancelableProgressPane
+ l.class
+SHA1-Digest: vg+/8hbxjbuFWlaGwWhod3aXDdo=
+
+Name: docs/api/index-files/index-11.html
+SHA1-Digest: qTXcuyxphJvxFdL4/H3XCoJ7Xhg=
+
+Name: docs/net/java/swingfx/jdraggable/demo/DraggableLabel.html
+SHA1-Digest: 0LNXsb2oQiOCnqYuf62vGZuoOlM=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/demo/DraggableLabe
+ l.html
+SHA1-Digest: yGGW+d+m24qZ9z3gv1m9TxE9hog=
+
+Name: docs/api/net/java/swingfx/common/package-tree.html
+SHA1-Digest: YIfrlaFPXhn7qFB4Qwln2n9q+cY=
+
+Name: docs/net/java/swingfx/waitwithstyle/package-summary.html
+SHA1-Digest: cfRfyuwpOzpK7TBCeVHgQersb5U=
+
+Name: docs/api/net/java/swingfx/jdraggable/demo/package-frame.html
+SHA1-Digest: alhMgFQdqC/K5IjHhd8taXQXTks=
+
+Name: docs/constant-values.html
+SHA1-Digest: f6Eu2yf+/cJc/8bfXs3166laauQ=
+
+Name: docs/api/src-html/net/java/swingfx/jdraggable/DraggableMask.html
+SHA1-Digest: 3+5oQKd48PWLCIc4VqK3ChrVLe4=
+
+Name: docs/api/net/java/swingfx/jdraggable/class-use/Draggable.html
+SHA1-Digest: QR386zi+pCqxnbUWBxPpBlAchtw=
+
+Name: docs/net/java/swingfx/common/package-tree.html
+SHA1-Digest: QZ5PgSmFhpoH3E61FSN063hrrtM=
+
+Name: net/java/swingfx/waitwithstyle/CancelableAdaptee.java
+SHA1-Digest: t/si+Bp3k2U7dxt5hzt5mA+JpAo=
+
+Name: docs/net/java/swingfx/jdraggable/class-use/Draggable.html
+SHA1-Digest: u9/4FPXeXRk45Wj92/1R+qc+Fnc=
+
+Name: net/java/swingfx/imagecropper/demo/Main.class
+SHA1-Digest: q2BOGZH/l10A1iwWX6bFy3YrbuM=
+
+Name: net/java/swingfx/imagecropper/ImageCropper.class
+SHA1-Digest: WOtMTWKHQnXXiTvAadi4nOvAzlU=
+
+Name: docs/net/java/swingfx/jdraggable/class-use/DraggableManager.html
+SHA1-Digest: XayLPMw2K3hFlXZ7qvzvocu0VNQ=
+
+Name: net/java/swingfx/rubberband/canvas/RubberBandCanvas.java
+SHA1-Digest: /1bxRZ6f217sC2F/B2OTaOC5+qc=
+
+Name: docs/index-files/index-9.html
+SHA1-Digest: kNvuNAFR1jYgIGCbAyYtRrbItco=
+
